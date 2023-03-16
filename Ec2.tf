@@ -1,7 +1,11 @@
 resource "aws_instance" "EC2Instance" {
   ami                    = "ami-09ba48996007c8b50"
   count                  = 2
+<<<<<<< HEAD
   instance_type          = "t2.medium"
+=======
+  instance_type          = "t2.micro"
+>>>>>>> 04a3c65 ( new files added)
   availability_zone      = "ap-south-1b"
   tenancy                = "default"
   subnet_id              = aws_subnet.Office_Public.id

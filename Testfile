@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 terraform {
   required_providers {
     aws = {
@@ -11,3 +12,7 @@ provider "aws" {
   access_key = "AKIA5NPRD34I6RM7KOBW"
   secret_key = "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"
 }
+=======
+This is the first line
+Testing the changes
+>>>>>>> 04a3c65 ( new files added)
