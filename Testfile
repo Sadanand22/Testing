@@ -14,5 +14,3 @@ provider "aws" {
 }
 =======
 This is the first line
-Testing the changes
->>>>>>> 04a3c65 ( new files added)
