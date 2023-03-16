@@ -1,4 +1,4 @@
-<<<<<<< HEAD and Tail
+# Ec2 creation
 terraform {
   required_providers {
     aws = {
