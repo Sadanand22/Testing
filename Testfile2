@@ -1,2 +1,7 @@
-This is third line
-This is 4th line
+resource "aws_internet_gateway" "office_IG" {
+  vpc_id = aws_vpc.Office_VPC.id
+
+  tags = {
+    Name = "IG"
+  }
+}

@@ -1,1 +1,16 @@
-This is the second line
+resource "aws_subnet" "Office_Public" {
+  vpc_id                  = aws_vpc.Office_VPC.id
+  cidr_block              = var.public_subnet_cidr
+  availability_zone       = var.public_azs
+  map_public_ip_on_launch = false
+
+  tags = {
+    Name = "Public_Subnet"
+  }
+  resource "aws_internet_gateway" "office_IG" {
+  vpc_id = aws_vpc.Office_VPC.id
+
+  tags = {
+    Name = "IG"
+  }
+}
