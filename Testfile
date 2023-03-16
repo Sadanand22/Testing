@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+<<<<<<< HEAD and Tail
 terraform {
   required_providers {
     aws = {
